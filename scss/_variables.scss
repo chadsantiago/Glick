@@ -1,0 +1,24 @@
+// Color
+$primary-color: #141414;
+$secondary-color: #0a0a0a;
+$white: #ffffff;
+$gray: #707070;
+$lime: #6ece9d;
+
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+$primary-font: 'Poppins', sans-serif;
+
+
+@mixin flex($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin highlight($bg) {
+    background-color: $bg;
+    border-radius: 20px;
+    padding: 30px 0;
+}

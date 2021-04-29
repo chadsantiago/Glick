@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glick</title>
+    <link rel="icon" href="/dist/img/icon.png">
+
+    <meta name="description" content="Glick">
+    <meta name="author" content="Richard Santiago">
+    <meta name="copyright" content="Richard Santiago"/>
+    <meta property="og:title" content="Glick">
+    <meta property="og:description" content="As Easy As Analytics Gets.">
+    <meta property="og:image" content="dist/img/preview.png"/>
+    <meta property="twitter:title" content="Glick">
+    <meta property="twitter:description" content="As Easy As Analytics Gets.">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="dist/css/frame.css">
+
+    <!-- Box Icons -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ===== Animate CSS ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="row">
+                <a href="./">
+                    <div class="logo-container">
+                        <img class="logo" src="./dist/img/logo.svg" alt="logo">
+                    </div>
+                </a>
+
+                <div class="hide nav-menu">
+                    <div class="item">
+                        <a href="#pricing"><p class="link link-menu animate__animated"><i class='bx bx-subdirectory-right link-icon'></i> Pricing</p></a>
+                    </div>
+                    <div class="item">
+                        <a href="#faq"><p class="link link-menu animate__animated"><i class='bx bx-subdirectory-right link-icon'></i> Faq</p></a>
+                    </div>
+                    <div class="item">
+                        <a href="login.html" target="_blank"><p class="link link-menu animate__animated"><i class='bx bx-subdirectory-right link-icon'></i> Login</p></a>
+                    </div>
+                    <div class="item">
+                        <a href="signup.html" target="_blank"><p class="link-menu animate__animated nav-button">Get Started</p></a>
+                    </div>
+
+                    <div class="nav-menu-footer">
+                        <div class="social">
+                            <p>
+                                <i class='bx bxl-facebook-square social-icon animate__animated'></i>
+                                <i class='bx bxl-twitter social-icon animate__animated'></i>
+                                <i class='bx bxl-github social-icon animate__animated'></i>
+                            </p>
+                        </div>
+                        <p class="footer-text">©2021 Glick - all rights reserved</p>
+                    </div>
+                </div>
+
+                <div class="menu-icon">
+                    <i onclick="showNav()" class='bx bx-menu icon' id="hamburger"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page">
+        <div class="container text-center">
+
+            <p class="title mb-1">
+                As Easy As<br>Analytics Gets.
+            </p>
+
+            <p class="caption mb-1">
+                Glick is a simple, open-source alternative to Google Analytics — lightweight, 
+                cookie-free and easily integrated into any website.
+            </p>
+
+            <div class="center-center mb-4">
+                <a href="signup.html" target="_blank"><p class="cta-button">Start now for free</p></a>
+            </div>
+            
+
+            <div>
+                <img class="dash" src="/dist/img/dashboard-dark.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="page">
+        <div class="container row-4 text-center">
+            <div>
+                <img class="brand" src="./dist/img/brands/google-2015.svg" alt="">
+            </div>
+            <div>
+                <img class="brand" src="./dist/img/brands/amazon-2.svg" alt="">
+            </div>
+            <div>
+                <img class="brand" src="./dist/img/brands/facebook.svg" alt="">
+            </div>
+            <div>
+                <img class="brand" src="./dist/img/brands/amd.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="page">
+        <div class="container text-center">
+            <h2 class="display-1 mb-0 medium">
+                Everything You Expect, and More
+            </h2>
+
+            <p class="sub-display-1 mb-2">
+                Powerful Dashboard for Your Personal or Business Needs
+            </p>
+
+            <div>
+                <img class="dash" src="/dist/img/tables.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="page">
+        <div class="container text-center">
+            <p class="display-1 mb-0 medium">
+                Simple, fair pricing.
+            </p>
+
+            <p class="sub-display-1">
+                Try for 30-days or 10,000 page views — free of 
+                charge, no credit card required.
+            </p>
+
+            <div class="row-2 mt-2">
+                <div class="gray-highlight text-left">
+                    <div class="pricing">
+                        <div class="row mb-1">
+                            <p class="display-2 bold">
+                                Lite
+                            </p>
+                            <p class="display-3 regular">Free</p>
+                        </div>
+
+                        <div class="line mb-1">
+
+                        </div>
+
+                        <div class="group mb-1 text-center">
+                            <i class='bx bx-check pricing-icon' ></i>
+                            <p class="sub-display-2 perks">
+                                5 websites
+                            </p>
+                        </div>
+
+                        <div class="group mb-1 text-center">
+                            <i class='bx bx-check pricing-icon' ></i>
+                            <p class="sub-display-2 perks">
+                                10 admins
+                            </p>
+                        </div>
+
+                        <div class="group mb-1 text-center">
+                            <i class='bx bx-check pricing-icon' ></i>
+                            <p class="sub-display-2 perks">
+                                RESTful API and SDKs
+                            </p>
+                        </div>
+
+                        <div class="group mb-1 text-center">
+                            <i class='bx bx-check pricing-icon' ></i>
+                            <p class="sub-display-2 perks">
+                                Full access management
+                            </p>
+                        </div>
+
+                        <div class="center-center mt-3 mb-0">
+                            <a href="signup.html" target="_blank"><p class="cta-button">Start 30-day Free Trial</p></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gray-highlight text-left">
+                    <div class="pricing">
+                        <div class="row mb-1">
+                            <p class="display-2 bold">
+                                Pro
+                            </p>
+                            <p class="display-3 regular">$29</p>
+                        </div>
+
+                        <div class="line mb-1">
+
+                        </div>
+
+                        <div class="group mb-1 text-center">
+                            <i class='bx bx-check pricing-icon' ></i>
+                            <p class="sub-display-2 perks">
+                                Unlimited websites
+                            </p>
+                        </div>
+
+                        <div class="group mb-1 text-center">
+                            <i class='bx bx-check pricing-icon' ></i>
+                            <p class="sub-display-2 perks">
+                                Unlimited admins
+                            </p>
+                        </div>
+
+                        <div class="group mb-1 text-center">
+                            <i class='bx bx-check pricing-icon' ></i>
+                            <p class="sub-display-2 perks">
+                                RESTful API and SDKs
+                            </p>
+                        </div>
+
+                        <div class="group mb-1 text-center">
+                            <i class='bx bx-check pricing-icon' ></i>
+                            <p class="sub-display-2 perks">
+                                Full access management
+                            </p>
+                        </div>
+
+                        <div class="center-center mt-3 mb-0">
+                            <a href="signup.html" target="_blank"><p class="cta-button">Start 30-day Free Trial</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="page">
+        <div class="container">
+            <p class="display-1 mb-2 medium text-center">
+                Frequently Asked Questions
+            </p>
+            <div class="faq-wrapper mb-2">
+                <div class="faq mb-0">
+                    <p class="display-3">
+                        Where is my data stored?
+                    </p>
+                    <i class='bx bx-plus plus'></i>
+                </div>
+
+                <p class="sub-display-1 panel hidden">
+                    Your website and account data are hosted in 
+                    Germany only. In case you subscribe to Pirsch 
+                    after the trial your payment details are handled 
+                    by our partner Stripe in the USA.
+                </p>
+            </div>
+
+            <div class="faq-wrapper">
+                <div class="faq mb-0">
+                    <p class="display-3">
+                        Can I export my data?
+                    </p>
+                    <i class='bx bx-plus plus'></i>
+                </div>
+
+                <p class="sub-display-1 panel hidden">
+                    Yes, you can download all your statistics to CSV 
+                    files from the settings page. We also offer a API 
+                    to work with the data in your tools.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="page">
+        <div class="container text-center">
+            <div class="gray-highlight">
+                <p class="display-1 mb-0">
+                    Ready to Get Started?
+                </p>
+
+                <p class="sub-display-1 mb-1">
+                    Setting up only takes a few minutes.
+                    <br>
+                    No credit card required.
+                </p>
+
+                <div class="center-center mb-0">
+                    <a href="signup.html" target="_blank"><p class="cta-button">Start 30-day Free Trial</p></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="page">
+        <div class="container text-center">
+                <p class="sub-display-1">
+                    Glick Analytics
+                </p>
+                <p class="sub-display-2">
+                    ©2021 All rights reserved.
+                </p>
+                <div class="footer-social">
+                    <p>
+                        <i class='bx bxl-facebook-square social-icon animate__animated'></i>
+                        <i class='bx bxl-twitter social-icon animate__animated'></i>
+                        <i class='bx bxl-github social-icon animate__animated'></i>
+                    </p>
+                </div>
+        </div>
+    </footer>
+    
+    <script src="dist/js/main.js"></script>
+</body>
+</html>

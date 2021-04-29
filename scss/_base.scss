@@ -1,0 +1,123 @@
+// Hero Page
+
+.page {
+    padding: 100px 0 10px;
+}
+
+.title {
+    font-weight: 600;
+    line-height: 1.2;
+    color: $white;
+}
+
+.subtitle, .caption {
+    line-height: 1.5;
+    color: $gray;
+}
+
+.cta-button {
+    font-size: 1rem;
+    font-weight: 500;
+    width: auto;
+    background-color: $lime;
+    color: $secondary-color;
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.dash {
+    border-radius: 12px;
+    box-shadow: 0 0 0 1px $gray;
+}
+
+// Second Page
+
+
+// Third Page
+
+.brand {
+    fill: $gray;
+}
+
+// Price Page
+
+.pricing {
+    padding: 0 30px;
+}
+
+.pricing-icon {
+    font-size: 1.5rem;
+    padding-right: 15px;
+    color: $lime;
+}
+
+.line {
+    height: 5px;
+    width: 40px;
+    background-color: $lime;
+}
+
+.perks {
+    line-height: 1;
+    color: $white !important;
+}
+
+// FAQ Page
+
+.plus {
+    color: $white;
+    font-size: 1.5rem;
+}
+
+.pamel {
+    transition: all .5s ease;
+}
+
+.hidden {
+    display: none;
+    transition: all .5s ease;
+}
+
+// Last Page
+
+.gray-highlight {
+    @include highlight($primary-color)
+}
+
+.lime-highlight {
+    @include highlight($lime)
+}
+
+// Footer
+
+.footer-social {
+    color: $gray;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+
+    &:link {
+        text-decoration: none;
+        outline: 0;
+      }
+
+    &:visited {
+        text-decoration: none;
+        outline: 0;
+    }
+
+    &:active {
+        text-decoration: none;
+        outline: 0;
+    }
+
+    &:focus {
+        text-decoration: none;
+        outline: 0;
+    }
+}
+

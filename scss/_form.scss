@@ -1,0 +1,50 @@
+.input {
+    padding-bottom: 1em;
+
+    input{
+    
+        font-family: $primary-font;
+        padding: 10px;
+        height: 50px;
+        font-size: 1rem;
+        font-weight: 400;
+        box-sizing: border-box;
+        background-color: $primary-color;
+        border: none;
+        border-radius: 6px;
+        color: $white;
+        transition: .3s ease;
+    }
+}
+
+form {
+    display: inline-block;
+}
+
+.signup-button, .login-button {
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: $secondary-color;
+    background-color: $lime;
+    border-radius: 6px;
+}
+
+.mini {
+    max-width: 320px;
+}
+
+.sign {
+    color: $lime;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+input:focus,
+input:active,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
